@@ -46,7 +46,6 @@ Sigue estos pasos para poner en marcha PySQL Console en tu sistema.
     git clone [https://github.com/tu-usuario/PySQL-Console.git](https://github.com/tu-usuario/PySQL-Console.git)
     cd PySQL-Console
     ```
-    *(**Nota:** Reemplaza `https://github.com/tu-usuario/PySQL-Console.git` con la URL real de tu repositorio si lo subes a GitHub.)*
 
 2.  **Instala las dependencias de Python** utilizando `pip`:
 
@@ -59,7 +58,7 @@ Sigue estos pasos para poner en marcha PySQL Console en tu sistema.
 Para iniciar la aplicación, navega al directorio del proyecto en tu terminal y ejecuta el script principal:
 
 ```bash
-python tu_archivo_principal.py # Por ejemplo: python main.py
+python python main.py
 ```
 
 ## ⚠️ Consideraciones de Seguridad (Importante)
