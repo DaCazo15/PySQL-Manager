@@ -28,7 +28,7 @@ Con PySQL Console, puedes realizar operaciones esenciales como **crear nuevas ta
 ---
 
 
-## ⚠️ Consideraciones de Seguridad (Importante)
+## ⚠️ Consideraciones de Seguridad
 Es fundamental destacar que, en su implementación actual, las funciones como get_columnas y eliminar_tabla construyen dinámicamente las consultas SQL insertando directamente el nombre de la tabla. Esta práctica, si bien funcional para nombres de tablas controlados, puede ser vulnerable a ataques de inyección SQL si el nombre de la tabla proviene de una entrada no validada por el usuario en un entorno de producción.
 
 Recomendación: Para garantizar la máxima seguridad, especialmente en aplicaciones que manejen datos sensibles o provengan de fuentes externas, se recomienda encarecidamente implementar una validación estricta (por ejemplo, una lista blanca de nombres de tablas permitidos) antes de ejecutar cualquier consulta SQL que incluya identificadores de tabla construidos dinámicamente.
