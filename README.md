@@ -27,38 +27,6 @@ Con PySQL Console, puedes realizar operaciones esenciales como **crear nuevas ta
 
 ---
 
-## 🚀 Cómo Empezar
-
-Sigue estos pasos para poner en marcha PySQL Console en tu sistema.
-
-### Prerrequisitos
-
-* **Python 3.x:** Asegúrate de tener una versión compatible de Python instalada. Puedes verificarlo con:
-    ```bash
-    python --version
-    ```
-
-### Instalación
-
-1.  **Clona el repositorio** (o descarga los archivos del proyecto):
-
-    ```bash
-    git clone https://github.com/DaCazo15/PySQL-Manager cd PySQL-Console
-    ```
-
-2.  **Instala las dependencias de Python** utilizando `pip`:
-
-    ```bash
-    pip install rich
-    ```
-
-### Uso
-
-Para iniciar la aplicación, navega al directorio del proyecto en tu terminal y ejecuta el script principal:
-
-```bash
-python python main.py
-```
 
 ## ⚠️ Consideraciones de Seguridad (Importante)
 Es fundamental destacar que, en su implementación actual, las funciones como get_columnas y eliminar_tabla construyen dinámicamente las consultas SQL insertando directamente el nombre de la tabla. Esta práctica, si bien funcional para nombres de tablas controlados, puede ser vulnerable a ataques de inyección SQL si el nombre de la tabla proviene de una entrada no validada por el usuario en un entorno de producción.
