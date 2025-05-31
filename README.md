@@ -34,7 +34,7 @@ Es fundamental destacar que, en su implementación actual, las funciones como ge
 Recomendación: Para garantizar la máxima seguridad, especialmente en aplicaciones que manejen datos sensibles o provengan de fuentes externas, se recomienda encarecidamente implementar una validación estricta (por ejemplo, una lista blanca de nombres de tablas permitidos) antes de ejecutar cualquier consulta SQL que incluya identificadores de tabla construidos dinámicamente.
 
 ## 🤝 Contribuciones
-¡Tu ayuda es bienvenida! Si deseas contribuir a PySQL Console, ya sea mejorando el código, añadiendo nuevas funcionalidades o reportando errores no dudes en comunicarte conmigo
+¡Tu ayuda es bienvenida! Si deseas contribuir a PySQL Console, ya sea mejorando el código, añadiendo nuevas funcionalidades o reportando errores no dudes en comunicarte conmigo.
 
 ## 📄 Licencia
 Este proyecto está distribuido bajo la Licencia MIT.
