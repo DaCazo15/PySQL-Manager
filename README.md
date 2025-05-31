@@ -42,7 +42,7 @@ Realiza tus cambios y haz commit (git commit -m 'Añadir nueva funcionalidad X')
 Sube tus cambios a tu fork (git push origin feature/nueva-funcionalidad).
 Abre un Pull Request a este repositorio.
 ## 📄 Licencia
-Este proyecto está distribuido bajo la Licencia MIT. Consulta el archivo LICENSE (si lo tienes) para más detalles.
+Este proyecto está distribuido bajo la Licencia MIT.
 
 ## 📧 Contacto
 Para cualquier pregunta, sugerencia o comentario, no dudes en contactarme a través de dcazorla.0190@gmail.com.
