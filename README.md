@@ -1,4 +1,4 @@
-# PySQL Console
+# PySQL Manager
 
 ---
 
